@@ -83,7 +83,7 @@ http://www.mathworks.com/matlabcentral/profile/authors/757722-jimmy-shen
     
     Warped_IM = Warped_nii.img;
 
-# NiftyReg  
+# NiftyReg_Loop  
   %% Input files %%
   
   Target Image: Ref0001.nii
