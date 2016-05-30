@@ -21,9 +21,8 @@ by Jimmy Shen
 http://www.mathworks.com/matlabcentral/profile/authors/757722-jimmy-shen
 
 1. MATLAB to Nii (2D)
-    % Input
-
-    % IM: image data
+                  % Input
+                  % IM: image data
     
     % filename: file name
     
