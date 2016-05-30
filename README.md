@@ -5,7 +5,7 @@ Running NiftyReg in for-loop in MacOS/Unix environment using BASH script.
 NiftyReg 1.3.9 (as of May 2016)
 https://sourceforge.net/projects/niftyreg/
 
-# How to install NiftyReg
+# Install NiftyReg
 http://sourceforge.mirrorservice.org/n/ni/niftyreg/install_NiftyReg_macLinux.pdf
 
 Overall, the instruction is fairly accurate. Except, the project will be installed into Library(?) but not into the folder mentioned by the instruction. 
@@ -83,7 +83,7 @@ http://www.mathworks.com/matlabcentral/profile/authors/757722-jimmy-shen
     
     Warped_IM = Warped_nii.img;
 
-# How to use NiftyReg_Loop.sh
+# Use NiftyReg_Loop.sh
 
 There are XXX source/moving 2D images to be registered onto the reference/target 2D image around the specific area specified by a mask.   
 
