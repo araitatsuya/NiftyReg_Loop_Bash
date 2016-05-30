@@ -83,7 +83,7 @@ http://www.mathworks.com/matlabcentral/profile/authors/757722-jimmy-shen
     
     Warped_IM = Warped_nii.img;
 
-# NiftyReg_Loop.sh
+# How to use NiftyReg_Loop.sh
 
 There are XXX source/moving 2D images to be registered onto the reference/target 2D image around the specific area specified by a mask.   
 
