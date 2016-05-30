@@ -1,10 +1,14 @@
 # NiftyReg_Loop_Bash
 Running NiftyReg in for-loop in MacOS/Unix environment using BASH script.
 
+# Download NiftyRef
+NiftyReg 1.3.9 (as of May 2016)
+https://sourceforge.net/projects/niftyreg/
+
 # How to install NiftyReg
 http://sourceforge.mirrorservice.org/n/ni/niftyreg/install_NiftyReg_macLinux.pdf
 
-Overall, the instruction is accurate. Except, the project will be installed into Library(?) but not into the folder mentioned by the instruction. 
+Overall, the instruction is fairly accurate. Except, the project will be installed into Library(?) but not into the folder mentioned by the instruction. 
 Based on my experience, CMAKE 2.8.5 worked on both OSX9 and OSX11. (CMAKE 2.8.5 is GUI based). After 'generate', '$make' and '$make install' will be done in Terminal/Command Window. 
 The newer version of CMAKE (such as 3.2) did not work. 
 
