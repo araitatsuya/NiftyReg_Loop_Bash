@@ -24,42 +24,61 @@ http://www.mathworks.com/matlabcentral/profile/authors/757722-jimmy-shen
     % Input
 
     % IM: image data
+    
     % filename: file name
+    
     % Ref: reference/target image data
+    
     % Mask: Mask data on reference/target image
 
     save_nii(IM, [filename '.nii']) % IM.nii
+    
     save_nii(Ref, 'Ref.nii') $Ref.nii
     
     imagesc(Ref);
+    
     [Mask, x_ref_mask, y_ref_mask] = roipoly;
+    
     save_nii(Mask, 'Mask.nii') $Mask.nii
     
 2. Nii to MATLAB (Stack of 2D images)
+
     % Input
 
     % i1: image ID number
+    
     % x_ref, y_ref: points[x,y] on the reference image
+    
     % Deformed Coordinate System: IM_def.nii
+    
     % Warped Image: IM_warped.nii
 
     % Deformed Coordinate System
+    
     Def_nii = load_nii('IM_def.nii');
+    
     Y_def = Def_nii.img(:,:,1,1,1);
+    
     X_def = Def_nii.img(:,:,1,1,2);
     
+    
     % Reference Coordinate System
+    
     [X_ref,Y_ref] = meshgrid([1:size(X_def,2)], [1:size(X_def,1)]);
     
     % Point by Point Transformation
+    
     x_def(:,i1) = interp2(X_ref,Y_ref,X_def,x_ref,y_ref);
+    
     y_def(:,i1) = interp2(X_ref,Y_ref,Y_def,x_ref,y_ref);
     
     % Warped Image
+    
     Warped_nii = load_nii('IM_warped.nii');
 
 # NiftyReg  
   Input files
+  
   Target Image: Ref0001.nii
   
   Source Images: IM0001.nii to IM0XXX.nii
