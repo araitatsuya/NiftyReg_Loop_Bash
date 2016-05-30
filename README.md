@@ -11,13 +11,18 @@ Based on my experience, CMAKE 2.8.5 worked on OSX9 and OSX11. The newer version 
   Image file -> MATLAB file -> Nifty file -> NiftyReg -> Nifty file -> MATLAB file
 
 NIfTI_20140122 (as of May 2016): Nifty Image Tool on MATLAB
+
 http://www.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-analyze-image
+
 by Jimmy Shen
+
 23 Oct 2005 (Updated 22 Jan 2014)
+
 http://www.mathworks.com/matlabcentral/profile/authors/757722-jimmy-shen
 
 1. MATLAB to Nii (2D)
     % Input
+
     % IM: image data
     % filename: file name
     % Ref: reference/target image data
@@ -32,6 +37,7 @@ http://www.mathworks.com/matlabcentral/profile/authors/757722-jimmy-shen
     
 2. Nii to MATLAB (Stack of 2D images)
     % Input
+
     % i1: image ID number
     % x_ref, y_ref: points[x,y] on the reference image
     % Deformed Coordinate System: IM_def.nii
