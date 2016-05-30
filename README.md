@@ -21,6 +21,10 @@ I did not do the following part. But it is working.
 CMAKE version 2.8
 https://cmake.org/files/v2.8/
 
+Another instruction
+
+http://cmictig.cs.ucl.ac.uk/wiki/index.php/NiftyReg_install
+
 # My favorite work flow using MATLAB
                 Image file -> MATLAB file -> Nifty file -> NiftyReg -> Nifty file -> MATLAB file
 
