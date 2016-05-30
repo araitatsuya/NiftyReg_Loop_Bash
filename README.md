@@ -13,10 +13,10 @@ Based on my experience, CMAKE 2.8.5 worked on both OSX9 (with Xcode6) and OSX11 
 The newer version of CMAKE (such as 3.2) did not work. 
 
 I did not do this part. But it is working fine.
-NIFTYREG_INSTALL=<path_to_your_niftyreg_install> (/Users/XYXY/niftyreg_install in the current example)
-export PATH=${PATH}:/${NIFTYREG_INSTALL}/bin
-export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${NIFTYREG_INSTALL}/lib
 
+                NIFTYREG_INSTALL=<path_to_your_niftyreg_install> (/Users/XYXY/niftyreg_install in the current example)
+                export PATH=${PATH}:/${NIFTYREG_INSTALL}/bin
+                export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${NIFTYREG_INSTALL}/lib
 
 CMAKE version 2.8
 https://cmake.org/files/v2.8/
