@@ -9,7 +9,7 @@ https://sourceforge.net/projects/niftyreg/
 http://sourceforge.mirrorservice.org/n/ni/niftyreg/install_NiftyReg_macLinux.pdf
 
 Overall, the instruction is fairly accurate. Except, the project will be installed into 'build' folder but not into 'install' folder as it mentioned by the instruction. 
-Based on my experience, CMAKE 2.8.5 worked on both OSX9 and OSX11. (CMAKE 2.8.5 is GUI based). After 'generate', '$make' and '$make install' will be excuted in Terminal/Command Window. 
+Based on my experience, CMAKE 2.8.5 worked on both OSX9 (with Xcode6) and OSX11 (with Xcode7). (CMAKE 2.8.5 is GUI based). After 'generate', '$make' and '$make install' will be excuted in Terminal/Command Window. 
 The newer version of CMAKE (such as 3.2) did not work. 
 
 CMAKE version 2.8
