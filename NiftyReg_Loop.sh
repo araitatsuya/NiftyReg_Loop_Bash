@@ -7,7 +7,7 @@ for NUM in `seq 1 1 721`
 #echo IM000${NUM}_aff.txt
         if [ "$NUM" -lt "10" ]
             then
-reg_aladin -target Ref0001.nii -source IM000${NUM}.nii -rmask Mask0001.nii -aff IM000${NUM}_aff.txt
+                reg_aladin -target Ref0001.nii -source IM000${NUM}.nii -rmask Mask0001.nii -aff IM000${NUM}_aff.txt
                 reg_f3d -target Ref0001.nii -source IM000${NUM}.nii -rmask Mask0001.nii -aff IM000${NUM}_aff.txt -cpp IM000${NUM}_cpp.nii -result IM000${NUM}_warped.nii
                 reg_transform -ref Ref0001.nii -cpp2def IM000${NUM}_cpp.nii IM000${NUM}_def.nii
         else
@@ -19,9 +19,9 @@ reg_aladin -target Ref0001.nii -source IM000${NUM}.nii -rmask Mask0001.nii -aff 
             else
                 if [ "$NUM" -lt "1000" ]
                     then
-                    reg_aladin -target Ref0001.nii -source IM0${NUM}.nii -rmask Mask0001.nii -aff IM0${NUM}_aff.txt
-                    reg_f3d -target Ref0001.nii -source IM0${NUM}.nii -rmask Mask0001.nii -aff IM0${NUM}_aff.txt -cpp IM0${NUM}_cpp.nii -result IM0${NUM}_warped.nii
-                    reg_transform -ref Ref0001.nii -cpp2def IM0${NUM}_cpp.nii IM0${NUM}_def.nii
+                        reg_aladin -target Ref0001.nii -source IM0${NUM}.nii -rmask Mask0001.nii -aff IM0${NUM}_aff.txt
+                        reg_f3d -target Ref0001.nii -source IM0${NUM}.nii -rmask Mask0001.nii -aff IM0${NUM}_aff.txt -cpp IM0${NUM}_cpp.nii -result IM0${NUM}_warped.nii
+                        reg_transform -ref Ref0001.nii -cpp2def IM0${NUM}_cpp.nii IM0${NUM}_def.nii
                 fi
             fi
         fi
