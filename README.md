@@ -88,10 +88,10 @@ http://www.mathworks.com/matlabcentral/profile/authors/757722-jimmy-shen
   
   %% Output files %%
   
-  Affine Transformation: IM0XXX_aff.txt
+  Affine Transformation: IM0XXX_aff.txt.
     Quick and dirty affine transformation (principal stretch, translation, shear, and rotation) with no deformable local control.
     
-  Warped Images: IM0XXX_warped.nii
+  Warped Images: IM0XXX_warped.nii.
     Warped source images; Target Image ~ Warped Image (Hopefully)
     
   Deformed Coordinate System: IM0XXX_def.nii
