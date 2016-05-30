@@ -1,7 +1,7 @@
 # NiftyReg_Loop_Bash
 Running NiftyReg in for-loop in MacOS/Unix environment using BASH script.
 
-# Download NiftyRef
+# Download NiftyReg
 NiftyReg 1.3.9 (as of May 2016)
 https://sourceforge.net/projects/niftyreg/
 
