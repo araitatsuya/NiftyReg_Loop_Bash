@@ -93,7 +93,7 @@ There are XXX source/moving 2D images to be registered onto the reference/target
   
                   for NUM in `seq 1 1 721`
 
-  %% Run NiftyReg_Loop.sh
+  %% Run NiftyReg_Loop.sh in Terminal/Command Window
   
                   bash NiftyReg_Loop.sh
 
