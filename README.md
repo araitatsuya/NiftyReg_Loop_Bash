@@ -85,7 +85,7 @@ http://www.mathworks.com/matlabcentral/profile/authors/757722-jimmy-shen
 
 # NiftyReg_Loop.sh
 
-You have XXX source/moving 2D images to be registered onto reference/target 2D image around the specific area specified by a mask.   
+You have XXX source/moving 2D images to be registered onto the reference/target 2D image around the specific area specified by a mask.   
 
   %% Modify the number of loops %%
   
