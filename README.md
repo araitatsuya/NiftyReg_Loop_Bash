@@ -8,7 +8,7 @@ Overall, the instruction is accurate. Except, the project will be installed into
 Based on my experience, CMAKE 2.8.5 worked on OSX9 and OSX11. The newer version of CMAKE (such as 3.2) did not work. 
 
 # My favorite work flow using MATLAB
-  Image file -> MATLAB file -> Nifty file -> NiftyReg -> Nifty file -> MATLAB file
+                Image file -> MATLAB file -> Nifty file -> NiftyReg -> Nifty file -> MATLAB file
 
 NIfTI_20140122 (as of May 2016): Nifty Image Tool on MATLAB
 
