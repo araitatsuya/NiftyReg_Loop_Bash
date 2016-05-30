@@ -80,6 +80,8 @@ http://www.mathworks.com/matlabcentral/profile/authors/757722-jimmy-shen
     %% Warped Image %%
     
     Warped_nii = load_nii('IM_warped.nii');
+    
+    Warped_IM = Warped_nii.img;
 
 # NiftyReg  
   %% Input files %%
