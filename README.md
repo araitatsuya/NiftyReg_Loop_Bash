@@ -12,6 +12,9 @@ Overall, the instruction is fairly accurate. Except, the project will be install
 Based on my experience, CMAKE 2.8.5 worked on both OSX9 and OSX11. (CMAKE 2.8.5 is GUI based). After 'generate', '$make' and '$make install' will be excuted in Terminal/Command Window. 
 The newer version of CMAKE (such as 3.2) did not work. 
 
+CMAKE version 2.8
+https://cmake.org/files/v2.8/
+
 # My favorite work flow using MATLAB
                 Image file -> MATLAB file -> Nifty file -> NiftyReg -> Nifty file -> MATLAB file
 
