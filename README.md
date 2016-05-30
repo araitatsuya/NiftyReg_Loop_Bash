@@ -83,7 +83,15 @@ http://www.mathworks.com/matlabcentral/profile/authors/757722-jimmy-shen
     
     Warped_IM = Warped_nii.img;
 
-# NiftyReg_Loop  
+# NiftyReg_Loop.sh
+  %% Modify the number of loops %%
+  
+  e.g. 1 to 721
+                  for NUM in `seq 1 1 721`
+
+  %% Run NiftyReg_Loop.sh
+                  bash NiftyReg_Loop.sh
+
   %% Input files %%
   
   Target Image: Ref0001.nii
