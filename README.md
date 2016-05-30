@@ -12,7 +12,7 @@ Overall, the instruction is fairly accurate. Except, the project will be install
 Based on my experience, CMAKE 2.8.5 worked on both OSX9 (with Xcode6) and OSX11 (with Xcode7). (CMAKE 2.8.5 is GUI based. Xcode may or may not be required.) After 'generate', '$make' and '$make install' will be excuted in Terminal/Command Window. 
 The newer version of CMAKE (such as 3.2) did not work. 
 
-I did not do this part. But it is working fine.
+I did not do the following part. But it is working.
 
                 NIFTYREG_INSTALL=<path_to_your_niftyreg_install> (/Users/XYXY/niftyreg_install in the current example)
                 export PATH=${PATH}:/${NIFTYREG_INSTALL}/bin
