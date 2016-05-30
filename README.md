@@ -5,7 +5,7 @@ Running NiftyReg in for-loop in MacOS/Unix environment using BASH script.
 http://sourceforge.mirrorservice.org/n/ni/niftyreg/install_NiftyReg_macLinux.pdf
 
 Overall, the instruction is accurate. Except, the project will be installed into Library(?) but not into the folder mentioned by the instruction. 
-Based on my experience, CMAKE 2.8.5 worked on OSX9 and OSX11. The newer version of CMAKE (such as 3.2) did not work. 
+Based on my experience, CMAKE 2.8.5 worked on OSX9 and OSX11. (CMAKE 2.8.5 is GUI). The newer version of CMAKE (such as 3.2) did not work. 
 
 # My favorite work flow using MATLAB
                 Image file -> MATLAB file -> Nifty file -> NiftyReg -> Nifty file -> MATLAB file
